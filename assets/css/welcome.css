@@ -1,0 +1,23 @@
+body {
+  display: block;
+  text-align: center;
+}
+
+#element-settings.visible {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  border: 1px solid #aaa;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+#element-settings label {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0.1rem 0;
+}
+
+.hovered {
+  background-color: #0002;
+}
