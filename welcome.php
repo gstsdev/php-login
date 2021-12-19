@@ -28,7 +28,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     </p>
 
     <div class="d-flex flex-column justify-content-center align-items-center h-50">
-        <span class="my-5">Selecione um elemento:</span>
+        <span class="my-5">Selecione um elemento e personalize do <i>seu</i> jeito:</span>
 
         <div id="element-settings"></div>
 
