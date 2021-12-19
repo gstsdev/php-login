@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font: 14px sans-serif;
+}
+
+.wrapper {
+  width: 360px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.wrapper > h2,
+.wrapper > p {
+  text-align: center;
+}
